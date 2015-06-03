@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\scratchDetection">
+      <UniqueIdentifier>{523c9d26-40f8-4c76-bc68-932b4fe57374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\scratchDetection\detect">
+      <UniqueIdentifier>{c9d240ba-09f6-4386-9d0a-0dcf905c5bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\scratchDetection\repair">
+      <UniqueIdentifier>{353d56f5-8729-420c-bb4c-8ece5c850efb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\scratchDetection\beautify">
+      <UniqueIdentifier>{9750679a-5c35-4c3a-b91d-12f292f9b8b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\imageDeal">
+      <UniqueIdentifier>{876cf17c-f44a-4e0c-b5d0-3569db8d6fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\mydebug">
+      <UniqueIdentifier>{66b01cf3-b11e-472d-9f58-b86f1574726f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tools">
+      <UniqueIdentifier>{57b2b33e-002a-4ba7-8f98-fa93997e71f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\eye_detection.cpp">
+      <Filter>源文件\tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="scartchDetection\detect\detect.hpp">
+      <Filter>源文件\scratchDetection\detect</Filter>
+    </ClInclude>
+    <ClInclude Include="scartchDetection\beautify\beautify.hpp">
+      <Filter>源文件\scratchDetection\beautify</Filter>
+    </ClInclude>
+    <ClInclude Include="scartchDetection\repair\repair.hpp">
+      <Filter>源文件\scratchDetection\repair</Filter>
+    </ClInclude>
+    <ClInclude Include="scartchDetection\scratchDetection.hpp">
+      <Filter>源文件\scratchDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="scartchDetection\detect\basicDetect.hpp">
+      <Filter>源文件\scratchDetection\detect</Filter>
+    </ClInclude>
+    <ClInclude Include="scartchDetection\detect\removeBig.hpp">
+      <Filter>源文件\scratchDetection\detect</Filter>
+    </ClInclude>
+    <ClInclude Include="scartchDetection\detect\irDetect.hpp">
+      <Filter>源文件\scratchDetection\detect</Filter>
+    </ClInclude>
+    <ClInclude Include="scartchDetection\detect\expandDetect.hpp">
+      <Filter>源文件\scratchDetection\detect</Filter>
+    </ClInclude>
+    <ClInclude Include="scartchDetection\detect\eyeDetectAndRemove.hpp">
+      <Filter>源文件\scratchDetection\detect</Filter>
+    </ClInclude>
+    <ClInclude Include="scartchDetection\repair\repairTool.hpp">
+      <Filter>源文件\scratchDetection\repair</Filter>
+    </ClInclude>
+    <ClInclude Include="scartchDetection\repair\meanRepair.hpp">
+      <Filter>源文件\scratchDetection\repair</Filter>
+    </ClInclude>
+    <ClInclude Include="scartchDetection\repair\copyRepair.hpp">
+      <Filter>源文件\scratchDetection\repair</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\guidedfilter.hpp">
+      <Filter>源文件\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="mydebug\debug.hpp">
+      <Filter>源文件\mydebug</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\function.hpp">
+      <Filter>源文件\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="imageDeal\imageTool.hpp">
+      <Filter>源文件\imageDeal</Filter>
+    </ClInclude>
+    <ClInclude Include="scartchDetection\beautify\Guided.hpp">
+      <Filter>源文件\scratchDetection\beautify</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\eye_detection.h">
+      <Filter>源文件\tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
